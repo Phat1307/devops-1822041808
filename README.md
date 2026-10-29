@@ -3,7 +3,7 @@
 - **Sinh viên:** Nguyễn Minh Phát
 - **MSSV:** 1822041808
 - **Repository:** `devops-1822041808`
-- **GitHub Pages:** `https://<username>.github.io/devops-1822041808/`
+- **GitHub Pages:** `https://github.com/Phat1307/devops-1822041808/commit/8692dc08453c579f340309fd391b64e8ef287545`
 
 ## Cấu trúc thư mục
 - `index.html`: Giao diện chính chứa họ tên và MSSV.
