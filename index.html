@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Demo - Nguyễn Minh Phát</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="badge">CI/CD Pipeline Demo</span>
+            <h1>Nguyễn Minh Phát - 1822041808</h1>
+            <p class="subtitle">Thực hành triển khai Website tự động với GitHub Actions</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>Thông tin sinh viên</h2>
+                <ul class="info-list">
+                    <li><strong>Họ và tên:</strong> Nguyễn Minh Phát</li>
+                    <li><strong>Mã số sinh viên (MSSV):</strong> 1822041808</li>
+                    <li><strong>Trạng thái:</strong> <span class="status-active">Hoạt động (Phiên bản 1.0)</span></li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>Quy trình CI/CD</h2>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Code & Push</h3>
+                        <p>Viết code và push lên nhánh <code>main</code> trên GitHub.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Job Check</h3>
+                        <p>Kiểm tra đủ 3 file và thẻ <code>&lt;title&gt;</code> trong file HTML.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Job Deploy</h3>
+                        <p>Tự động xuất bản lên GitHub Pages khi vượt qua kiểm tra.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="card text-center">
+                <button id="btnAction" class="btn">Bấm để kiểm tra tương tác JavaScript</button>
+                <p id="msgResponse" class="hidden-msg"></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Nguyễn Minh Phát - 1822041808. Triển khai tự động bằng GitHub Actions.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
